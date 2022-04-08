@@ -187,7 +187,7 @@ o:value("aliyu", translate("AliyuDNS"))
 o:depends("DNS_enabled", 1)
 
 o=s:taboption("dnstab", Value,"app_key",translate("Access Key ID"))
-o.rmempty=false
+o.rmempty=true
 o:depends("DNS_enabled", 1)
 o=s:taboption("dnstab", Value,"app_secret",translate("Access Key Secret"))
 o.rmempty=true
